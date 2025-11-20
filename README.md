@@ -1,4 +1,4 @@
-# turtlebot4_pick_place
+# turtlebot4_uts
 Source code untuk UTS RE702
 Task dari project ini adalah bergerak ke titik A, mengaktifkan bel sekali (mendapatkan barang/benda kerja), lalu berpindah ke titik B dan mengaktifkan bel dua kali (barang/benda kerja sampai tujuan).
 
@@ -11,7 +11,7 @@ cd turtlebot4_ws/src
 ```
 ### Clone Repo 
 ```
-git clone https://github.com/MasdikaAliman/turtlebot4_nav_point_to_point.git
+git clone https://github.com/RICCY11/turtlebot4_uts.git
 ```
 ### Build 
 ```
@@ -24,20 +24,20 @@ ssh ubuntu@192.168.185.3
 ### Jalankan localization launch & navigation launch (pada turtlebot4)
 ```
 source install/setup.bash
-ros2 launch turtlebot4_pick_place localization.launch.py
+ros2 launch turtlebot4_uts localization.launch.py
 ```
 ```
 source install/setup.bash
-ros2 launch turtlebot4_pick_place uts_nav.launch.py
+ros2 launch turtlebot4_uts uts_navigation.launch.py
 ```
 ### Jalankan Rviz (pada PC)
 ```
-ros2 launch turtlebot4_viz view_robot.launch.py # This Humble
+ros2 launch turtlebot4_viz view_robot.launch.py
 ```
 ### Jalankan node program pick & place nya (pada turtlebot4)
 ```
 source install/setup.bash
-ros2 run turtlebot4_pick_place turtlebot4_pick_place_node
+ros2 run turtlebot4_uts koordinat_node
 ```
 
 
