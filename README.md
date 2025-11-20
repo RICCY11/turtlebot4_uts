@@ -1,6 +1,6 @@
 # turtlebot4_pick_place
 Source code untuk UTS RE702
-Task dari project ini adalah bergerak ke titik A, mengaktifkan bel sekali (mendapatkan barang/benda kerja), lalu berpindah ke titik B dan mengaktifkan bel dua kali (barang/bendar kerja sampai tujuan).
+Task dari project ini adalah bergerak ke titik A, mengaktifkan bel sekali (mendapatkan barang/benda kerja), lalu berpindah ke titik B dan mengaktifkan bel dua kali (barang/benda kerja sampai tujuan).
 
 ---
 # Langkah-langkah dalam menjalankan source code
