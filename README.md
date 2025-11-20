@@ -17,7 +17,6 @@ git clone https://github.com/MasdikaAliman/turtlebot4_nav_point_to_point.git
 ```
 colcon build
 ```
----
 ### Koneksikan PC ke Turtlebot4
 ```
 ssh ubuntu@192.168.185.3 
